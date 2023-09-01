@@ -20,4 +20,7 @@ class Movie
 
 }
 
+$movie1 = new Movie("Memento", "Thriller", 2000);
+$movie2 = new Movie("Interstellar", "Science Fiction", 2014);
+
 ?>
