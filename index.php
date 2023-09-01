@@ -12,6 +12,12 @@ class Movie
         $this->year = $year;
     }
 
+    public function printInfo() {
+        echo "Titolo: ".$this->title."<br>";
+        echo "Titolo: ".$this->genre."<br>";
+        echo "Titolo: ".$this->year."<br>";
+    }
+
 }
 
 ?>
